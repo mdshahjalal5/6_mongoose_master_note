@@ -1,4 +1,4 @@
-// !crud > create> read> update> delete 
+// !crud > create> read> update> delete .
 // ! create>// !n! im>cub > instance methods> custom method>built in method 
 
 import { IUser } from "./user.interface";
