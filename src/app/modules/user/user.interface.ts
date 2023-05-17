@@ -23,10 +23,12 @@ export interface IUser {
 export interface IUserMethods {
   fullName(): string;
 }
+
+// ! when  instance  methods and static  use same time code like below // reference docs> mongoose>typeSCript>static 
  
 //!un  // what doing userModel // generic not understanding 
-export interface UserModel extends Model<IUser, {}, IUserMethods> {
+export interface UserModel extends Model<IUser, {}, IUserMethods> { //! cog(cognition) from >mongoose>ts>static>both instance & static
 
-  // !un  //  after promise not understanding anything 
+  // !un  //  after promise not understanding anything    
   getAdminUsers(): Promise<HydratedDocument<IUser, IUserMethods>>;
 }

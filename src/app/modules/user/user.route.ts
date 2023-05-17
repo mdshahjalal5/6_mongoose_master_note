@@ -17,7 +17,11 @@ const router = express.Router();
 */
 // !post get update delete 
 router.get("/", getUsers);
+
+// !n! static route must written before dynamic route 
 router.get("/admins", getAdminUsers);
+
+// !n! dynamic route should written after static 
 router.get("/:id", getUserById);
 router.post("/create-user", createUser);
 
