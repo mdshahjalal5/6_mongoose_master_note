@@ -1,11 +1,13 @@
 // !crud > create> read> update> delete 
+// ! create>// !n! im>cub > instance methods> custom method>built in method 
+
 import { IUser } from "./user.interface";
 import User from "./user.model";
 
 // !create 
 export const createUserToDB = async (payload: IUser): Promise<IUser> => {
   // creating a new user
-  
+
 // !n! im>cub > instance methods> custom method>built in method 
 
   // !n! user is instance
