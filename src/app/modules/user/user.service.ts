@@ -7,7 +7,7 @@
 
 
 // ! -----------------------// read 
-// !fi => field filtering>
+// !qufis =>query> field filtering>sort
 
 
 import { IUser } from "./user.interface";
@@ -36,7 +36,9 @@ export const getUsersFromDB = async (): Promise<IUser[]>  => {
 
   // ! db.datas.find({ gender: { $ne: "Male" } }, { favoutiteColor: 1, _id: -1 }); // field filtering
 
-  // ! db.datas.find({ gender: { $ne: "Male" }}).project({gender:1})
+  
+                                              // ? field filtering  // sort ascending and descending
+  // ! db.datas.find({ gender: { $ne: "Male" }}).project({gender:1}).sort({age:-1})
   const users = await User.find();
   return users;
 };
