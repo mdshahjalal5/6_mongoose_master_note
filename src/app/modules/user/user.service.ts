@@ -1,5 +1,8 @@
 // !crud > create> read> update> delete  
-// ! create>// !n! im>cub > instance methods> custom method>built in method 
+
+// ! create>// !n! if>im>instance method>field filtering>
+
+// ! im>cub >custom method>built in method>
 
 import { IUser } from "./user.interface";
 import User from "./user.model";
