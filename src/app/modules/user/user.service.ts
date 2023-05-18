@@ -8,8 +8,10 @@
 
 // ! -----------------------// read 
 // !qufis =>query> field filtering>sort
-
-
+// !imex=>  explicit and implicit $and > can't use impicit and when property is same 
+/* collection.find({})
+  
+/*
 import { IUser } from "./user.interface";
 import User from "./user.model";
 
@@ -36,7 +38,7 @@ export const getUsersFromDB = async (): Promise<IUser[]>  => {
 
   // ! db.datas.find({ gender: { $ne: "Male" } }, { favoutiteColor: 1, _id: -1 }); // field filtering
 
-  
+
                                               // ? field filtering  // sort ascending and descending
   // ! db.datas.find({ gender: { $ne: "Male" }}).project({gender:1}).sort({age:-1})
   const users = await User.find();
