@@ -34,6 +34,8 @@ export const createUserToDB = async (payload: IUser): Promise<IUser> => {
 export const getUsersFromDB = async (): Promise<IUser[]>  => {  //! promise means it's asynchronous> Iuser means return type will be array and array's value will be IUser type // ! if i not give return type creates no prob 
 
 
+  // ! db.datas.find({ gender: { $ne: "Male" } }, { favoutiteColor: 1, _id: -1 }); // field filtering 
+  
   const users = await User.find();
   return users;
 };
