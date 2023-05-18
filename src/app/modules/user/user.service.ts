@@ -9,9 +9,10 @@
 // ! -----------------------// read 
 // !qufis =>query> field filtering>sort
 // !imex=>  explicit and implicit $and > can't use impicit and when property is same 
-/* collection.find({})
-  
+
 /*
+  
+ */
 import { IUser } from "./user.interface";
 import User from "./user.model";
 
