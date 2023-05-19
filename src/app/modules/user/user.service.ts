@@ -8,7 +8,8 @@
 
 // ! -----------------------// read 
 
-// !  mo quagso> mongodb operator> qup> query & projection operator> update operator> aggregration> so> aggregration pipeline stage> aggregation pipeline operatore
+// !  mo quagso> mongodb> operator> qup> query & projection operator> update operator> aggregration> so> aggregration pipeline stage> aggregation pipeline operator> 
+  
 
 // !qufis =>query> field filtering>sort
 // !imex=>  explicit and implicit $and > can't use impicit and when property is same 
