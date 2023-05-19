@@ -7,6 +7,8 @@
 
 
 // ! -----------------------// read 
+// !  
+
 // !qufis =>query> field filtering>sort
 // !imex=>  explicit and implicit $and > can't use impicit and when property is same 
 
