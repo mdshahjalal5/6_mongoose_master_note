@@ -75,3 +75,9 @@ export const getAdminUsersFromDB = async () => {
 // user = new User
 // user.   instance methods
 // User.getAdminUsers()
+
+
+
+// !n! delete operator 
+
+//? dropCollection, createCollectiondropCollection, createCollection;
