@@ -10,7 +10,7 @@
 // !qufis =>query> field filtering>sort
 // !imex=>  explicit and implicit $and > can't use impicit and when property is same 
 
-
+// !gap! huge gap mongodb nested query 
 /*
   collection.find({age:30 , age:{$gte:30}}) //! can't use age property is same // we can solve it by explicit $and operator 
  */
