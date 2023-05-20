@@ -25,7 +25,7 @@
  $all , $elemMatch, 
 '/
 
-!gap! huge gap mongodb nested query 
+!gap! huge gap mongodb nested query   // 
 /*
   collection.find({age:30 , age:{$gte:30}}) //! can't use age property is same // we can solve it by explicit $and operator 
  */
