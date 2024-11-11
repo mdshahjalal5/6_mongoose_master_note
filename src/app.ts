@@ -1,4 +1,4 @@
-// !n! !imp! toggle escape in vs code 
+// !n! !imp! toggle escape in vs code
 
 // ! cojur => cors> json>urlEconded>route
 
@@ -7,20 +7,19 @@ const app: Application = express();
 
 // Application routes
 import userRoutes from "./app/modules/user/user.route";
-// ! cors 
+// ! cors
 import cors from "cors";
 // using cors
 app.use(cors());
 
-// !json 
+// !json
 // parse data
 app.use(express.json());
-
 
 // ! urlEncoded
 app.use(express.urlencoded({ extended: true }));
 
-// ! route 
+// ! route
 app.use("/api/v1/user", userRoutes);
 
 export default app;
